@@ -1,0 +1,114 @@
+/* style.css */
+
+/* Mengatur tampilan body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Mengatur judul halaman */
+h1 {
+    color: #333;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Mengatur tampilan tombol */
+button, a {
+    background-color: #5c6bc0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover, a:hover {
+    background-color: #3949ab;
+}
+
+/* Mengatur tampilan form input */
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+/* Mengatur tombol simpan pada form */
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #388e3c;
+}
+
+/* Mengatur tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #5c6bc0;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e1f5fe;
+}
+
+/* Kontainer untuk form pencarian */
+.search-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.search-container input[type="text"] {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.search-container button {
+    padding: 10px;
+    background-color: #5c6bc0;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #3949ab;
+}
